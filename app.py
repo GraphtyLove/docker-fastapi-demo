@@ -22,7 +22,6 @@ def predict(
         "surface_area": surface_area,
         "city": city
     }
-    print("Preprocessing data:")
     preprocessed_data = preprocess(data)
     print("data preprocessed: ", preprocessed_data)
     price = random.randint(100_000, 1_000_000)
